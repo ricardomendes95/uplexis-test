@@ -1,5 +1,5 @@
 <template>
- <div>
+  <div>
     <transition-group name="fade" tag="div">
       <div v-for="i in [currentIndex]" :key="i">
         <img :src="currentImg" />
@@ -36,7 +36,6 @@ export default {
     next() {
       this.currentIndex += 1;
     },
-
   },
   computed: {
     currentImg() {
@@ -46,5 +45,4 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style src="./style.scss" lang="scss" scoped />

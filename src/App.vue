@@ -1,8 +1,8 @@
 <template>
-<div class="app">
-    <Carrossel/>
-  <router-view/>
-</div>
+  <div class="app">
+    <Carrossel />
+    <router-view />
+  </div>
 </template>
 <script>
 import Carrossel from '@/components/carrossel/Carrossel.vue';

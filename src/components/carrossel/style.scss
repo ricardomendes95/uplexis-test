@@ -3,7 +3,6 @@ div:first-child {
   justify-content: center;
   height: 300px;
   width: 100%;
-
 }
 .fade-enter-active,
 .fade-leave-active {
@@ -13,12 +12,10 @@ div:first-child {
   position: absolute;
   width: 100%;
   opacity: 1;
-
 }
 
 .fade-enter,
 .fade-leave-to {
-
   visibility: hidden;
   width: 100%;
   opacity: 0;
@@ -28,7 +25,6 @@ img {
   height: 300px;
   width: 100%;
   object-fit: cover;
-  
 }
 
 .prev,
@@ -46,6 +42,3 @@ img {
   text-decoration: none;
   user-select: none;
 }
-
-
-

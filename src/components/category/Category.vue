@@ -2,16 +2,18 @@
   <div>
     <div class="content">
       <div
-        v-for="(category, index ) in categories"
+        v-for="(category, index) in categories"
         v-bind:key="`category-${category.id}`"
       >
-        <div :class="category.selected ? 'card card-active' : 'card'" @click="handleSelect(index)">
+        <div
+          :class="category.selected ? 'card card-active' : 'card'"
+          @click="handleSelect(index)"
+        >
           <fa :icon="category.icon" />
           <span>{{ category.title }}</span>
         </div>
       </div>
     </div>
-
   </div>
 </template>
 <script>
@@ -75,7 +77,9 @@ export default {
   },
   methods: {
     handleSelect(index) {
-      const position = this.categories.findIndex((category) => category.selected === true);
+      const position = this.categories.findIndex(
+        (category) => category.selected === true,
+      );
       this.categories[position].selected = false;
       this.categories[index].selected = true;
     },

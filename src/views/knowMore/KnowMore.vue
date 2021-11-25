@@ -1,13 +1,13 @@
 <template>
   <div class="about">
-    <h1>{{plainId}}</h1>
+    <h1>{{ plainId }}</h1>
     <div class="body">
-        <fa :icon="plain.icon" />
-        <span>{{plain.title}}</span>
-        <p>
-          {{ plain.description }}
-        </p>
-      </div>
+      <fa :icon="plain.icon" />
+      <span>{{ plain.title }}</span>
+      <p>
+        {{ plain.description }}
+      </p>
+    </div>
   </div>
 </template>
 <script>
@@ -20,10 +20,8 @@ export default {
     return {
       plain: {
         icon: 'globo',
-
       },
       plains: Data,
-
     };
   },
   methods: {
@@ -41,5 +39,4 @@ export default {
     this.findPlain();
   },
 };
-
 </script>

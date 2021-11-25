@@ -11,7 +11,11 @@
           </select>
         </div>
         <div class="section">
-          <div style="object-fit: fit;" v-for="(plain, index) of plains" :key="index">
+          <div
+            style="object-fit: fit"
+            v-for="(plain, index) of plains"
+            :key="index"
+          >
             <Card :plain="plain" />
           </div>
         </div>
@@ -41,16 +45,13 @@ export default {
       teste: null,
     };
   },
-  methods: {
-
-  },
+  methods: {},
   watch: {
     filter() {
       console.log(this.filter);
     },
   },
-  mounted() {
-  },
+  mounted() {},
 };
 </script>
 
