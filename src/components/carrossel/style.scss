@@ -1,0 +1,51 @@
+div:first-child {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.9s ease;
+  overflow: hidden;
+  visibility: visible;
+  position: absolute;
+  width: 100%;
+  opacity: 1;
+
+}
+
+.fade-enter,
+.fade-leave-to {
+
+  visibility: hidden;
+  width: 100%;
+  opacity: 0;
+}
+
+img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.7s ease;
+  border-radius: 0 4px 4px 0;
+  text-decoration: none;
+  user-select: none;
+}
+
+
+

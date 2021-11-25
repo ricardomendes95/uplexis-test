@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "icon": "briefcase",
+    "title": "Profissional",
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "cost": "R$ 29,99",
+    "createdAt": "06/02/2021 09: 03: 16 PM"
+  },
+  {
+    "id": 2,
+    "icon": "landmark",
+    "title": "Reguladores",
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "cost": "R$ 35,90",
+    "createdAt": "01/10/2021 09: 34: 57 AM"
+  },
+  {
+    "id": 3,
+    "icon": "tree",
+    "title": "Sócio Ambiental",
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "cost": "R$ 35,90",
+    "createdAt": "04/01/2021 01: 51: 16 AM"
+  },
+  {
+    "id": 4,
+    "icon": "gavel",
+    "title": "Jurídico",
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "cost": "R$ 35,90",
+    "createdAt": "06/07/2021 12: 54: 15 AM"
+  },
+  {
+    "id": 5,
+    "icon": "ban",
+    "title": "Listas Restritivas",
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "cost": "R$ 35,90",
+    "createdAt": "10/26/2021 04: 31: 58 AM"
+  },
+  {
+    "id": 6,
+    "icon": "globe-americas",
+    "title": "Mídia / Internet",
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "cost": "R$ 35,90",
+    "createdAt": "04/30/2021 09: 36: 01 PM"
+  },
+  {
+    "id": 7,
+    "icon": "gem",
+    "title": "Bens e Imóveis",
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "cost": "R$ 35,90",
+    "createdAt": "11/11/2021 04: 15: 23 PM  "
+  },
+  {
+    "id": 8,
+    "icon": "male",
+    "title": "Cadastro",
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "cost": "R$ 35,90",
+    "createdAt": "02/14/2021 03: 28: 52 PM"
+  },
+  {
+    "id": 9,
+    "icon": "piggy-bank",
+    "title": "Financeiro",
+    "description":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "cost": "R$ 35,90",
+    "createdAt": "06/15/2021 11: 15: 09 PM"
+  }
+]
