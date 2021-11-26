@@ -6,7 +6,12 @@
     "description":
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     "cost": "R$ 29,99",
-    "createdAt": "06/02/2021 09: 03: 16 PM"
+    "createdAt": "06/02/2021 09: 03: 16 PM",
+    "images": [
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-imoveis-1.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-upmatch.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-veiculos.png"
+    ]
   },
   {
     "id": 2,
@@ -15,7 +20,12 @@
     "description":
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     "cost": "R$ 35,90",
-    "createdAt": "01/10/2021 09: 34: 57 AM"
+    "createdAt": "01/10/2021 09: 34: 57 AM",
+    "images": [
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-imoveis-1.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-upmatch.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-veiculos.png"
+    ]
   },
   {
     "id": 3,
@@ -24,7 +34,12 @@
     "description":
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     "cost": "R$ 35,90",
-    "createdAt": "04/01/2021 01: 51: 16 AM"
+    "createdAt": "04/01/2021 01: 51: 16 AM",
+    "images": [
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-imoveis-1.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-upmatch.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-veiculos.png"
+    ]
   },
   {
     "id": 4,
@@ -33,7 +48,12 @@
     "description":
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     "cost": "R$ 35,90",
-    "createdAt": "06/07/2021 12: 54: 15 AM"
+    "createdAt": "06/07/2021 12: 54: 15 AM",
+    "images": [
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-imoveis-1.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-upmatch.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-veiculos.png"
+    ]
   },
   {
     "id": 5,
@@ -42,7 +62,12 @@
     "description":
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     "cost": "R$ 35,90",
-    "createdAt": "10/26/2021 04: 31: 58 AM"
+    "createdAt": "10/26/2021 04: 31: 58 AM",
+    "images": [
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-imoveis-1.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-upmatch.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-veiculos.png"
+    ]
   },
   {
     "id": 6,
@@ -51,7 +76,12 @@
     "description":
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     "cost": "R$ 35,90",
-    "createdAt": "04/30/2021 09: 36: 01 PM"
+    "createdAt": "04/30/2021 09: 36: 01 PM",
+    "images": [
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-imoveis-1.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-upmatch.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-veiculos.png"
+    ]
   },
   {
     "id": 7,
@@ -60,7 +90,12 @@
     "description":
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     "cost": "R$ 35,90",
-    "createdAt": "11/11/2021 04: 15: 23 PM  "
+    "createdAt": "11/11/2021 04: 15: 23 PM  ",
+    "images": [
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-imoveis-1.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-upmatch.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-veiculos.png"
+    ]
   },
   {
     "id": 8,
@@ -69,7 +104,12 @@
     "description":
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     "cost": "R$ 35,90",
-    "createdAt": "02/14/2021 03: 28: 52 PM"
+    "createdAt": "02/14/2021 03: 28: 52 PM",
+    "images": [
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-imoveis-1.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-upmatch.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-veiculos.png"
+    ]
   },
   {
     "id": 9,
@@ -78,6 +118,11 @@
     "description":
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper urna sed elementum luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
     "cost": "R$ 35,90",
-    "createdAt": "06/15/2021 11: 15: 09 PM"
+    "createdAt": "06/15/2021 11: 15: 09 PM",
+    "images": [
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-imoveis-1.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-upmatch.png",
+      "https://uplexis.com.br/wp-content/uploads/2020/03/apps-veiculos.png"
+    ]
   }
 ]

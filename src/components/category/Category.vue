@@ -45,7 +45,7 @@ export default {
         {
           selected: false,
           icon: 'gavel',
-          title: 'Júridico',
+          title: 'Jurídico',
         },
         {
           selected: false,
@@ -82,6 +82,7 @@ export default {
       );
       this.categories[position].selected = false;
       this.categories[index].selected = true;
+      this.$emit('event-category', this.categories[index].title);
     },
   },
 };

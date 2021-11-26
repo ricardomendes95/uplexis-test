@@ -1,21 +1,31 @@
 <template>
-  <div class="about">
-    <h1>{{ plainId }}</h1>
-    <div class="body">
-      <fa :icon="plain.icon" />
-      <span>{{ plain.title }}</span>
-      <p>
-        {{ plain.description }}
-      </p>
+  <div class="container">
+    <div >
+      <router-link to="/" ><fa icon="chevron-left" /></router-link>
+      <h1>{{ plain.title }}</h1>
+    </div>
+    <div class="carrossel">
+          <Carrossel :images="plain.images || []" :objectFit="'contain'" />
+    </div>
+    <p>
+      {{ plain.description }}
+    </p>
+    <div class="footer">
+      <span>R$ <span>{{plain.cost?.replace('R$', "")}}</span></span>
+      <button>Habilitar</button>
     </div>
   </div>
 </template>
 <script>
 import Data from '@/assets/mocks.json';
+import Carrossel from '@/components/carrossel/Carrossel.vue';
 
 export default {
   name: 'KnowMore',
   props: ['plainId'],
+  components: {
+    Carrossel,
+  },
   data() {
     return {
       plain: {
@@ -26,7 +36,6 @@ export default {
   },
   methods: {
     findPlain() {
-      // const arr = Data;
       this.plains.map((plain) => {
         if (plain.id === Number(this.plainId)) {
           this.plain = plain;
@@ -40,3 +49,4 @@ export default {
   },
 };
 </script>
+<style src="./style.scss" lang="scss" scoped />

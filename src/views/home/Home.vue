@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Category />
+    <Category @event-category="handleCategory" />
     <div id="nav">
       <div class="content">
         <div class="select">
@@ -25,9 +25,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
-
-// import path from 'path';
 import Category from '@/components/category/Category.vue';
 import Card from '@/components/card/Card.vue';
 import Data from '@/assets/mocks.json';
@@ -41,17 +38,65 @@ export default {
   data() {
     return {
       filter: '1',
-      plains: Data,
-      teste: null,
+      plains: [],
+      categorySelected: 'todos',
     };
   },
-  methods: {},
+  methods: {
+    handleCategory(selected) {
+      this.categorySelected = selected;
+      this.plains = [];
+      this.findCategory();
+    },
+
+    findCategory() {
+      if (this.categorySelected === 'todos') {
+        this.plains = Data;
+      }
+      // eslint-disable-next-line no-restricted-syntax
+      for (const item of Data) {
+        if (item.title === this.categorySelected) {
+          this.plains.push(item);
+        }
+      }
+    },
+
+    filterItems(type) {
+      if (Number(type) === 2) {
+        this.plains.sort((a, b) => {
+          if (a.createdAt < b.createdAt) {
+            return 1;
+          }
+          if (a.createdAt > b.createdAt) {
+            return -1;
+          }
+          return 0;
+        });
+      } else {
+        this.plains.sort((a, b) => {
+          const a1 = a.cost.replace(/\D+/g, '');
+          const b1 = b.cost.replace(/\D+/g, '');
+          if (a1 > b1) {
+            return 1;
+          }
+          if (a1 < b1) {
+            return -1;
+          }
+          return 0;
+        });
+      }
+    },
+
+  },
   watch: {
     filter() {
-      console.log(this.filter);
+      const value = this.filter;
+      this.filterItems(value);
     },
   },
-  mounted() {},
+  mounted() {
+    this.findCategory();
+  },
 };
 </script>
 

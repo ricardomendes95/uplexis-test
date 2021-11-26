@@ -2,9 +2,11 @@
   <div>
     <transition-group name="fade" tag="div">
       <div v-for="i in [currentIndex]" :key="i">
-        <img :src="currentImg" />
+        <img :src="currentImg" :class="objectFit" />
       </div>
     </transition-group>
+    <a class="prev" @click="prev" href="#"><fa icon="arrow-left" /> </a>
+    <a class="next" @click="next" href="#"><fa icon="arrow-right" /></a>
   </div>
 </template>
 
@@ -12,16 +14,12 @@
 export default {
   name: 'Carrousel',
   props: {
-    msg: String,
+    images: [],
+    objectFit: String,
   },
 
   data() {
     return {
-      images: [
-        'https://uplexis.com.br/wp-content/uploads/2021/04/Case-Divulgacao-Carrossel.png',
-        'https://uplexis.com.br/wp-content/uploads/2019/10/bg-dossies.jpg',
-        'https://uplexis.com.br/wp-content/uploads/2019/10/bg-uplink.jpg',
-      ],
       timer: null,
       currentIndex: 0,
     };
@@ -35,6 +33,9 @@ export default {
     },
     next() {
       this.currentIndex += 1;
+    },
+    prev() {
+      this.currentIndex -= 1;
     },
   },
   computed: {
